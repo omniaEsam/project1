@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+    background-color:rgb(122, 14, 14);
+    text-align: center;
+    padding-top:130px ;
+    font-family: 'Alegreya Sans';
+}
+.add-tasks label{
+    color: whitesmoke ;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.add-tasks input[type="text"]{
+    border-radius: 30px;
+    width: 250px;
+    height: 25px;
+    border: none;
+}
+.add-tasks  button{
+    width: 70px;
+    height: 30px;
+    margin-top:10px ;
+    font-weight: bold;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    border: none;
+}
+.list-address{
+    display: flex;
+   justify-content: center;
+   margin: 20px 20px 0px 20px;
+}
+.list-address h2{
+    color: whitesmoke;
+    padding-right: 290px;
+}
+.list-address button{
+    width: 70px;
+    height: 30px;
+    margin-top:15px ;
+    font-weight: bold;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    border: none;
+}
+hr{
+    width: 450px;
+}
+.show-tasks .warn{
+    display: none;
+    background-color: rgb(126, 128, 0);
+    border-radius: 30px;
+    width: 170px;
+    height: 35px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(122, 14, 14);
+    margin-left: 480px;
+}
+.address h2{
+    color: whitesmoke;
+    padding-right: 290px;
+}
+.show-tasks .list .items .listyle {
+    margin: 10px;
+    margin-left: 430px;
+  }
+.listyle{
+    width: 30%;
+    background-color: whitesmoke;
+    padding:10px;
+    color:  rgb(122, 14, 14);
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+}
+
+.show-tasks .list .listyle input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 7px;
+    margin-right: 6px;
+}
+.show-tasks .list .listyle input[type="checkbox"]:focus + label{
+    text-decoration: line-through;
+}

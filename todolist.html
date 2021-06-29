@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todolist.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap">
+    <title>ToDO-List</title>
+</head>
+<body>
+    <main>
+        <section class="add-tasks">
+           <form id="todo-form">
+               <label>add your tasks</label>
+               <input id="new-task" type="text" autocomplete="off">
+               <button class="todo-button" id="add-button" title="add new task" type="submit">add</button>
+           </form>
+        </section>
+        <section class="show-tasks">
+            <div class="list-address">
+                <h2> ToDO-List</h2>
+                <button class="clear_btn" id="clear_button" title="clear all tasks">clear</button>
+            </div>
+            <hr>
+            <p class="warn">please add any task !</p>
+            <div class="list">
+                <ul class="items">
+
+                </ul>
+            </div>
+        </section>
+        <section class="complated_tasks">
+            <div class="address">
+                <h2>Complated List</h2>
+            </div>
+            <hr>
+            <div class="complated">
+                <ul class="comp_tasks">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="todolist.js"></script>
+</body>
+</html>
